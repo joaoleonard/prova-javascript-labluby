@@ -1,0 +1,367 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F7F7F7;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    color: #707070;
+    font-weight: 600;
+    font-size: 20px;
+    height: 76px;
+    box-shadow: 0 0 0 2px #EBEBEB;
+}
+
+button {
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.logo-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 200px;
+    height: 76px;
+}
+
+.title-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 76px;
+    position: relative;
+}
+
+h1::after {
+    display: flex;
+    flex-direction: column;
+    margin-top: 11px;
+    content: '';
+    width: 90px;
+    height: 7px;
+    background-color: #B5C401;
+    border-radius: 6px;
+    position: absolute;
+}
+
+.logout-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 250px;
+}
+
+.logout-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.log-out-arrow {
+    margin-left: 10px;
+    width: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+
+    min-height: calc(100vh - 8.5rem - 8.5rem);
+}
+
+.title {
+    color: #707070;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.dashboard {
+    color: #868686;
+    font-weight: 600;
+    font-size: 17px;
+
+    max-width: 766px;
+    margin-right: 50px;
+}
+
+.games-buttons {
+    margin-top: 20px;
+}
+
+.buttons {
+    color: #FFFFFF;
+    border-radius: 100px;
+    margin-right: 20px;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+
+    width: 113px;
+    height: 34px;
+}
+
+.lotofacil {
+    background: transparent;
+    color: #7F3992;
+}
+
+.mega-sena {
+    background: transparent;
+    color: #01AC66;
+}
+
+.quina {
+    background: transparent;
+    color: #F79C31;
+}
+
+.description {
+    font-weight: 400;
+}
+
+.numbers {
+    margin-bottom: 44px;
+}
+
+.number {
+    background-color: #ADC0C4;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+    width: 63px;
+    height: 65px;
+
+    margin: 5px;
+}
+
+.active {
+    background-color: #343333;
+}
+
+.box-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.complete-clear-buttons {
+    font-size: 16px;
+    font-weight: 600;
+    color: #27C383;
+    background-color: transparent;
+    border: 1px solid #27C383;
+    border-radius: 10px;
+    margin-right: 20px;
+
+    width: 164px;
+    height: 52px;
+
+    transition: linear 100ms;
+}
+
+.complete-clear-buttons:hover {
+    filter: brightness(90%);
+    border: 1px solid lightslategray;
+    color: lightslategray;
+}
+
+.finish-game-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #27C383;
+    border: 1px solid #27C383;
+    border-radius: 10px;
+
+    width: 209px;
+    height: 52px;
+
+    transition: ease-in 200ms;
+}
+
+.finish-game-button:hover {
+    filter: brightness(90%);
+}
+
+.cart-icon {
+    width: 40px;
+    margin-right: 25px;
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    min-width: 400px;
+    height: 484px;
+    position: relative;
+    
+    color: #707070;
+    font-size: 24px;
+}
+
+.bills {
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-bottom: 96px;
+    overflow: scroll;
+}
+
+.bills::-webkit-scrollbar {
+    display: none;
+}
+
+.game-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.trash-button {
+    border: none;
+    background-color: transparent;
+
+    width: 40px;
+}
+
+.trash-icon {
+    width: 35px;
+    margin-right: 20px;
+}
+
+.bet {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 20px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.numbers-game {
+    color: #868686;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.type-value {
+    display: flex;
+    flex-direction: row;
+}
+
+.type-game {
+    font-size: 16px;
+    font-weight: 600;
+
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+
+.value-game {
+    color: #868686;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.total-game {
+    font-style: normal;
+    display: flex;
+    align-items: flex-end;
+}
+
+.cart-total {
+    font-style: italic;
+}
+
+.total {
+    margin-left: 10px;
+}
+
+.save-button-box {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    width: 100%;
+    height: 96px;
+
+    background-color: #F4F4F4;
+    border: 1px solid #E2E2E2;
+    border-radius: 0 0 10px 10px;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.save-button {
+    background: transparent;
+    border: none;
+    height: 96px;
+
+    color: #27C383;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.green-arrow {
+    width: 30px;
+    transform: rotate(90deg);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    height: 76px;
+    width: 100%;
+    margin-top: 80px;
+    background-color: #F7F7F7;
+
+    color: #707070;
+    font-size: 15px;
+    font-style: normal;
+    
+    box-shadow: 0 0 0 2px #EBEBEB;
+}

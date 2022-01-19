@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet"> 
+    <title>Prova Final Javascript - João Leonardo</title>
+</head>
+<body>
+    <header>
+        <div class="logo-header">
+            <div class="title-header">
+                <h1>TGL</h1>
+            </div>
+            <div>
+                <span>Home</span>
+            </div>
+        </div>
+        <div class="logout-header">
+            <div>
+                <span>Account</span>
+            </div>
+            <div class="logout-button">
+                <span>Log out</span>
+                <img src="./img/black-arrow.png" alt="log-out" class="log-out-arrow">
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="dashboard">
+            <div class="title">
+                <p><strong>NEW BET </strong>FOR MEGA-SENA</p>
+            </div>
+            <p>Choose a game</p>
+            <div id="games-buttons" class="games-buttons"></div>
+            <p>Fill your bet</p>
+            <p class="description"></p>
+            <div class="numbers"></div>
+            <div class="box-buttons">
+                <div>
+                    <button class="complete-clear-buttons" id="complete-game">Complete game</button>
+                    <button class="complete-clear-buttons" id="clear-game">Clear game</button>
+                </div>
+                <div>
+                    <button class="finish-game-button">
+                        <img src="./img/cart-white.png" alt="finish-game" class="cart-icon">
+                        Add to cart
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="cart-container">
+            <div class="bills">
+                <p><strong>CART</strong></p>
+                <div class="game-box"></div>
+                <div class="total-game">
+                    <p><strong class="cart-total">CART</strong></p><p class="total"></p>
+                </div>
+            </div>
+            <div class="save-button-box">
+                <button class="save-button">
+                    Save
+                    <img src="./img/green-arrow.png" alt="save" class="green-arrow">
+                </button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <span>Copyright 2020 Luby Software</span>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
