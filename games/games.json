@@ -24,6 +24,14 @@
       "price": 2,
       "max-number": 5,
       "color": "#F79C31"
+    },
+    {
+      "type": "Timemania",
+      "description": "Escolha 10 números para apostar na Timemania. Você ganha acertando 7, 6, 5, 4 ou 3 números. São muitas chances de ganhar, e agora você joga de onde estiver!",
+      "range": 80,
+      "price": 2,
+      "max-number": 10,
+      "color": "#56464A"
     }
   ]
 }
